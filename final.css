@@ -1,0 +1,35 @@
+#arrayDiv
+{
+    border-color: black;
+    margin:1px 5px 3px px;
+    border-style: solid;
+    border-width: length;
+    background-color: lightblue;
+    
+}
+#backDiv
+{
+    background-color: white;
+}
+#inputs
+{
+ background-image: url(images/sky.jpg);
+    background-size: cover;
+}
+.navbar
+{
+    background-image: url(images/woodBackground.jpg);
+}
+#map {
+    position: fixed;
+  top: 25%;
+  left: 25%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+    width: 1000px;
+}
+
+h2 {
+    margin-bottom:0;
+    margin-top: 0;
+}

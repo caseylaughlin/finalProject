@@ -1,0 +1,33 @@
+<div id = 'inputs'>
+<h1>Flight Search</h1>
+<br>
+<p>Destination</p>
+<input type = "text" ng-model = 'destination'>
+<br>
+<p>Origin</p>
+<input type = "text" ng-model = 'origin'>
+<br>
+<p>Duration</p>
+<input type="text" ng-model="duration">
+<br>
+<p>Direct</p>
+<input type="text" ng-model="direct">
+<br>
+<p>Max Price</p>
+<input type = 'number' ng-model="maxPrice">
+<br>
+<button type="button" ng-click="flightInfo()">Search Flights</button>
+<br>
+<h4>All flights in the next five months from {{origin}} to {{destination}}</h4>
+    <h4>Number of Results: {{numResults}}</h4>
+</div>
+<div id = 'backDiv'>
+<div class = 'col-xs-12 col-sm-6 col-lg-3 col-md-4' id = 'arrayDiv' ng-repeat = "flight in flights track by $index">
+    //dicks in my butt
+    The Price for a donger: {{flight.price}} |
+    Your destination: {{flight.destination}} |
+    Departure date of the flight: {{flight.departure_date}} |
+    Return date of the flight: {{flight.return_date}}
+
+ </div>
+</div>
